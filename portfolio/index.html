@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    
+    
+    <section id="home" class="section">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I am a passionate developer, and here are my works!</p>
+        <button class="btn" onclick="scrollToSection('#about')">Learn More</button>
+    </section>
+        <h2></h2>
+        <section id = "profile" class ="section">
+        <div class ="profile">
+            <img src="465751389_967484745235748_163088699205111547_n.jpg" alt ="Project 1"
+            height = "50" width = "50">
+
+
+
+    
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hello im a Computer Science Student from  USTP and this is my work portfolio.</p>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Project 1 : Weather App</h2>
+        <div class="project-card">
+            <img src="Apple-Weather-app.webp" alt="Project 1" height="200" width="150">
+            <h3>Project 1</h3>
+            <p>Simple Weather App.</p>
+            <a href="https://github.com/zayqrashid/Project-2" target="_blank">
+                <button class="btn">View Details</button>
+            </a>
+        </div>
+        <section id="projects" class="section">
+            <h2>Project 2 : Beneath The Vines</h2>
+            <div class="project-card">
+                <img src="main_screen.png" alt="Project 1" height="200" width="150">
+                <h3>Project 2</h3>
+                <p>Visual Novel Game.</p>
+                <a href="https://github.com/zayqrashid/project-3" target="_blank">
+                    <button class="btn">View Details</button>
+                </a>
+            </div>
+
+            <section id="projects" class="section">
+                <h2>Project 3 : Friend Recommendation System</h2>
+                <div class="project-card">
+                    <img src="Capture.PNG" alt="Project 1" height="200" width="150">
+                    <h3>Project 3</h3>
+                    <p>System</p>
+                    <a href="https://github.com/zayqrashid/Project-4-" target="_blank">
+                        <button class="btn">View Details</button>
+                    </a>
+                </div>
+
+
+
+            <section id="contact" class="section">
+                <h2>Contact</h2>
+                <p>Feel free to reach out! You can email me directly or use the form below.</p>
+            
+                <!-- Email Link -->
+                <a href="mailto:maulodzayq@gmail.com">maulodzayq@gmail.com</a>
+            
+                <!-- Contact Form -->
+                <form id="contact-form" action="https://formspree.io/f/mnnqeoyq" method="POST">
+                    <div>
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            
+                </a>
+            </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
